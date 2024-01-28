@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+i , li , .meal-layer{
+    cursor: pointer;
+}
+#sideBar{
+    z-index: 9999;
+    left: 0px;
+}
+.links ul li {
+    position: relative;
+    padding: 10px 0;
+}
+.logo{
+    width: 50px;
+}
+.meal-layer{
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transition: .5s;
+}
+
+.meal:hover .meal-layer{
+    top: 0;
+}
+.loadingpage{
+    z-index: 999999999;
+}
